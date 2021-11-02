@@ -60,7 +60,7 @@ const HomePage = () => {
                 goal: projectData.goal,
                 image: projectData.image,
                 location: projectData.location,
-                category: projectData.category
+                categories: projectData.categories
 
             }
             ),
@@ -146,12 +146,12 @@ const HomePage = () => {
 
                         <Form.Group className="mb-3" controlId="ControlInput">
                             <Form.Label htmlFor="IsOpen">Category</Form.Label>
-                            <Form.Select  id="category"aria-label="Default select example"
+                            <Form.Select  id="categories"aria-label="Default select example"
                             onChange={handleChange}>
-                                <option>{projectData.category}</option>
-                                <option value="Software Engineer">Front-end Website Design</option>
-                                <option value="Senior Business Analyst">Back-end Design</option>
-                                <option value="Project Manager">Other</option>
+                                <option>{projectData.categories}</option>
+                                <option value="Software Engineer">Software Engineer</option>
+                                <option value="Senior Business Analyst">Senior Business Analyst</option>
+                                <option value="Project Manager">Project Manager</option>
                             </Form.Select>
                         </Form.Group>
 
