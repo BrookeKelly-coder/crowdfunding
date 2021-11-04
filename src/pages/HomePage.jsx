@@ -82,7 +82,7 @@ const HomePage = () => {
             && <button 
             onClick={() => setAddProject(true)}
             id="AddProject"
-            >Add Project</button>
+            >Recruit a Role</button>
             }
             <div>
                 {
@@ -91,12 +91,12 @@ const HomePage = () => {
                     <div class="centre-page">
                         <Form>
                         <Form.Group className="mb-3" controlId="ControlInput">
-                            <Form.Label htmlFor="IsOpen">Project Status</Form.Label>
+                            <Form.Label htmlFor="IsOpen">Is open to pledges</Form.Label>
                             <Form.Select id="is_open" aria-label="Default select example"
                             onChange={handleChange}>
                                 <option>{projectData.is_open}</option>
-                                <option value="true">true</option>
-                                <option value="false">false</option>
+                                <option value="true">Yes</option>
+                                <option value="false">No</option>
                             </Form.Select>
                         </Form.Group>
                         
@@ -145,7 +145,7 @@ const HomePage = () => {
                         </Form.Group>
 
                         <Form.Group className="mb-3" controlId="ControlInput">
-                            <Form.Label htmlFor="IsOpen">Category</Form.Label>
+                            <Form.Label htmlFor="IsOpen">ategory</Form.Label>
                             <Form.Select  id="categories"aria-label="Default select example"
                             onChange={handleChange}>
                                 <option>{projectData.categories}</option>

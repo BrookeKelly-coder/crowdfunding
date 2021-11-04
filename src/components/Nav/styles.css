@@ -1,0 +1,9 @@
+#container {
+    display: flex;
+    justify-content: space-between;
+    font-size: larger;
+    padding: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: navy;
+
+}

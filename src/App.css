@@ -1,6 +1,21 @@
 #project-list {
     display: grid;
-    grid-template-columns: 30% 30% 30%;
+    grid-template-columns: 50% 50%;
     column-gap: 10px;
     row-gap: 10px;
+    margin-top: 5%;
+}
+
+#AddProject {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:navy;
+    margin: auto;
+    margin-top: 5%;
+    padding: 15px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    border: 3px solid navy;
+    box-shadow: 0px 0px 5px rgb(93, 93, 240);
 }
